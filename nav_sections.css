@@ -1,0 +1,36 @@
+.section {
+    text-align: left;
+    display: inline;
+}
+
+.section a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.section li{
+    list-style-type: none;
+}
+
+.section .headtitle {
+    float: left;
+    font-size: 30px;
+    padding: 5px;
+    font-family: monospace;
+}
+
+.section .subheadings {
+    float: right;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-family: monospace;
+}
+
+
+  
+  
+
+
+
+
