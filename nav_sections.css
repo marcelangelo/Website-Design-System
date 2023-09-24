@@ -12,21 +12,36 @@
     list-style-type: none;
 }
 
-.section .headtitle {
+.section .headtitle_dot{
     float: left;
     font-size: 30px;
-    padding: 5px;
     font-family: monospace;
+    padding-top: 5px;
+}
+
+.section .headtitle{
+    float: left;
+    font-size: 30px;
+    padding-left: 10px;
+    font-family: monospace;
+    padding-top: 5px;
 }
 
 .section .subheadings {
     float: right;
     font-size: 20px;
     padding-top: 10px;
-    padding-right: 10px;
+    padding-right: 15px;
     font-family: monospace;
 }
 
+.section .subheadings a{
+    color: rgb(100, 100, 100);
+}
+
+.section .headtitle_dot a{
+    color: rgb(255, 0, 0);
+}
 
   
   
