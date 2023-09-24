@@ -1,44 +1,55 @@
-.section {
-    text-align: left;
-    display: inline;
+html{
+    background-color: rgb(35, 35, 35);
+    font-family: monospace;
 }
 
-.section a {
-    text-decoration: none;
+header{
+    background-color: rgb(0, 0, 0);
+    margin: -6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+}
+
+.navigation tr td.aside h1{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-top: 200px;
+    margin-bottom: auto;
+    text-decoration: underline;
+}
+
+.navigation tr td.aside h2{
+    color: black;
+    text-decoration: overline rgb(255, 0, 0);
+}
+
+.navigation tr td.aside{
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    width: 50%;
+}
+
+.navigation tr td.main h1{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.navigation tr td.main{
     color: rgb(255, 255, 255);
 }
 
-.section li{
-    list-style-type: none;
+.navigation tr td img{
+    margin-top: -90px;
+    opacity: 50%;
+    position: absolute;
+    border: solid rgb(255, 0, 0) 3px;
+    border-radius: 5px;
+
 }
 
-.section .headtitle_dot{
-    float: left;
-    font-size: 30px;
-    font-family: monospace;
-    padding-top: 5px;
-}
-
-.section .headtitle{
-    float: left;
-    font-size: 30px;
-    padding-left: 10px;
-    font-family: monospace;
-    padding-top: 5px;
-}
-
-.section .subheadings {
-    float: right;
-    font-size: 20px;
-    padding-top: 10px;
-    padding-right: 15px;
-    font-family: monospace;
-}
-
-.section .subheadings a{
-    color: rgb(100, 100, 100);
-}
-
-.section .headtitle_dot a{
-    color: rgb(255, 0, 0);
+td {
+    padding: 2%;
 }
