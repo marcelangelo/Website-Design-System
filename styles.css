@@ -44,6 +44,7 @@ header{
 .navigation tr td img{
     margin-top: -90px;
     opacity: 50%;
+    position: absolute;
 }
 
 td {
