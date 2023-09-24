@@ -16,19 +16,19 @@ header{
 .navigation tr td.aside h1{
     color: rgb(0, 0, 0);
     font-size: 30px;
-    margin-top: 70px;
+    margin-top: 200px;
     margin-bottom: auto;
     text-decoration: underline;
 }
 
 .navigation tr td.aside h2{
     color: black;
-    text-decoration: overline;
+    text-decoration: overline rgb(110, 0, 0);
 }
 
 .navigation tr td.aside{
     font-size: 17px;
-    color: rgb(151, 151, 151);
+    color: rgb(255, 255, 255);
     width: 50%;
 }
 
@@ -38,7 +38,7 @@ header{
 }
 
 .navigation tr td.main{
-    color: rgb(151, 151, 151);
+    color: rgb(255, 255, 255);
 }
 
 .navigation tr td img{
