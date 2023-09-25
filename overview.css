@@ -3,6 +3,7 @@ div.overview h3{
     color: rgb(100, 100, 100);
     width: 75%;
     padding-top: 120px;
+    padding-bottom: 10px;
     margin: auto;
     text-align: center;
     /*border: SOLID rgb(255, 213, 0) 2PX;*/
@@ -13,7 +14,7 @@ div.overview p{
     color: rgb(255, 255, 255);
     font-size: 17px;
     width: 75%;
-    margin: auto;
+    margin: 5px auto;
     text-align: center;
     /*border: SOLID rgb(0, 242, 255) 2PX;*/
 }
