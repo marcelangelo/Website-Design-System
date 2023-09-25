@@ -1,0 +1,24 @@
+div.overview h3{
+    font-size: 20px;
+    color: rgb(100, 100, 100);
+    width: 75%;
+    padding-top: 120px;
+    margin: auto;
+    text-align: center;
+    /*border: SOLID rgb(255, 213, 0) 2PX;*/
+    
+}
+
+div.overview p{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    /*border: SOLID rgb(0, 242, 255) 2PX;*/
+}
+
+div.overview{
+    /*border: SOLID green 5PX;*/
+    padding-bottom: 20px;
+}
