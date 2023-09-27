@@ -1,107 +1,51 @@
-/*Navigation*/
-
-.navigation{
-    background-color: rgb(120, 120, 120);
-    float: left;
-    padding-bottom: 50px;
-    padding-top: 50px;
-}
-
-td {
-    padding: 2%;
-}
-
-
-
-/*Navigation Overview*/
-
-.nav_overview {
-    text-align: center;
-    font-size: 20px;
-    margin: auto;
-    width: 75%;
-    padding-bottom: 20px;
-}
-
-.nav_overview h1{
-    font-size: 40px;
-    text-decoration: underline rgb(255, 0, 0);
-}
-
-.navigation tr td.aside h1{
-    color: rgb(0, 0, 0);
-    font-size: 30px;
-    margin-bottom: 10px;
-    text-decoration: underline;
-}
-
-.navigation tr td.aside h2{
-    color: black;
-    font-size: 30px;
-    text-decoration: overline rgb(0, 0, 0);
-    margin-bottom: 10px;
-}
-
-.navigation tr td.aside{
-    font-size: 17px;
-    color: rgb(255, 255, 255);
-    width: 50%;
-}
-
-.navigation tr td.main h1{
-    color: rgb(0, 0, 0);
-    text-decoration: underline;
-}
-
-.navigation tr td.main{
-    color: rgb(255, 255, 255);
-}
-
-.navigation tr td img{
-    margin-top: -200px;
-    opacity: 50%;
-    position: absolute;
-    border: solid rgb(255, 0, 0) 3px;
-    border-radius: 5px;
-    width: 42%;
-}
-
-
-
-/*Examples*/
-
-.examples{
-    margin-top: 100px;
-    font-size: 17px;
-    color: rgb(255, 255, 255);
-}
-
-.navigation .examples h2{
-    color: black;
-    font-size: 30px;
-    text-decoration: overline rgb(0, 0, 0);
-    margin-bottom: 10px;
-    margin-left: 20px;
-}
-
-.navigation .examples p{
-    color: rgb(255, 255, 255);
-    margin-top: 30px;
-    margin-left: 20px;
+.section {
     text-align: left;
-    width: 80%;
+    display: inline;
 }
 
-.navigation .examples .examples_1{
-    border: solid red 3px;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: rgb(35, 35, 35);
-    margin-left: 30px;
-    width: 60%;
-    text-align: justify;
+.section a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 
-.navigation .examples .examples_1 ul {
-    list-style: none;    
+.section li{
+    list-style-type: none;
 }
+
+.section .headtitle_dot{
+    float: left;
+    font-size: 30px;
+    font-family: monospace;
+    padding-top: 5px;
+}
+
+.section .headtitle{
+    float: left;
+    font-size: 30px;
+    padding-left: 10px;
+    font-family: monospace;
+    padding-top: 5px;
+}
+
+.section .subheadings {
+    float: right;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-right: 15px;
+    font-family: monospace;
+}
+
+.section .subheadings a{
+    color: rgb(100, 100, 100);
+}
+
+.section .headtitle_dot a{
+    color: rgb(255, 0, 0);
+}
+
+  
+  
+
+
+
+
