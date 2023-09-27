@@ -14,14 +14,14 @@
 
 .section .headtitle_dot{
     float: left;
-    font-size: 30px;
+    font-size: 700%;
     font-family: monospace;
     padding-top: 5px;
 }
 
 .section .headtitle{
     float: left;
-    font-size: 30px;
+    font-size: 700%;
     padding-left: 10px;
     font-family: monospace;
     padding-top: 5px;
@@ -29,9 +29,9 @@
 
 .section .subheadings {
     float: right;
-    font-size: 20px;
-    padding-top: 10px;
-    padding-right: 15px;
+    font-size: 250%;
+    padding-top: 5%;
+    padding-right: 2%;
     font-family: monospace;
 }
 
