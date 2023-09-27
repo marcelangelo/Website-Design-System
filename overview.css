@@ -6,6 +6,7 @@ div.overview h3{
     padding-bottom: 10px;
     margin: auto;
     text-align: center;
+    text-decoration: underline rgb(255, 0, 0);
     /*border: SOLID rgb(255, 213, 0) 2PX;*/
     
 }
@@ -22,4 +23,6 @@ div.overview p{
 div.overview{
     /*border: SOLID green 5PX;*/
     padding-bottom: 20px;
+    background-color: rgb(35, 35, 35);
+    border-bottom: solid red 2px;
 }
