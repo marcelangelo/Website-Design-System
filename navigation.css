@@ -1,7 +1,7 @@
 /*Navigation*/
 
 .navigation{
-    background-color: rgb(120, 120, 120);
+    background-color: rgb(255, 255, 255);
     float: left;
     padding-bottom: 50px;
     padding-top: 50px;
@@ -15,6 +15,13 @@ td {
 
 /*Navigation Overview*/
 
+.nav_overview h1{
+    font-size: 40px;
+    font-family: 'Creepster';
+    color: black;
+    text-decoration: underline rgb(255, 0, 0);
+}
+
 .nav_overview {
     text-align: center;
     font-size: 20px;
@@ -23,38 +30,23 @@ td {
     padding-bottom: 20px;
 }
 
-.nav_overview h1{
-    font-size: 40px;
-    text-decoration: underline rgb(255, 0, 0);
-}
-
-.navigation tr td.aside h1{
-    color: rgb(0, 0, 0);
-    font-size: 30px;
-    margin-bottom: 10px;
-    text-decoration: underline;
-}
-
 .navigation tr td.aside h2{
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 30px;
     text-decoration: overline rgb(0, 0, 0);
     margin-bottom: 10px;
 }
 
-.navigation tr td.aside{
+.navigation tr td.aside p{
     font-size: 17px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     width: 50%;
 }
 
-.navigation tr td.main h1{
-    color: rgb(0, 0, 0);
-    text-decoration: underline;
-}
-
 .navigation tr td.main{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 100%;
+    
 }
 
 .navigation tr td img{
@@ -63,7 +55,7 @@ td {
     position: absolute;
     border: solid rgb(255, 0, 0) 3px;
     border-radius: 5px;
-    width: 42%;
+    width: 50px;
 }
 
 
@@ -73,23 +65,31 @@ td {
 .examples{
     margin-top: 100px;
     font-size: 17px;
-    color: rgb(255, 255, 255);
+    color: rgb(30, 255, 0);
+    padding: 1%;
 }
 
 .navigation .examples h2{
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 30px;
     text-decoration: overline rgb(0, 0, 0);
     margin-bottom: 10px;
-    margin-left: 20px;
+    padding-left: 1%;
 }
 
 .navigation .examples p{
-    color: rgb(255, 255, 255);
-    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 17px;
+    width: 60%;
+    padding-left: 1%;
+}
+
+.navigation .examples .examples_1 p{
+    color: rgb(30, 255, 0);
     margin-left: 20px;
     text-align: left;
-    width: 80%;
+    width: 60%;
 }
 
 .navigation .examples .examples_1{
