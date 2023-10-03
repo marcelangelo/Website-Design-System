@@ -1,6 +1,6 @@
 @font-face{
     font-family: 'Creepster';
-    src: url('/Module_Projects/Webdesign/Resources/Fonts/Creepster/Creepster-Regular.ttf') format('truetype');
+    src: url('Creepster-Regular.ttf') format('truetype');
 }
 
 html{
