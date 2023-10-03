@@ -1,5 +1,7 @@
 div.overview h3{
-    font-size: 20px;
+    font-size: 30px;
+    font-family: 'creepster', monospace;
+    font-weight: 100;
     color: rgb(100, 100, 100);
     width: 75%;
     padding-top: 120px;
@@ -17,6 +19,7 @@ div.overview p{
     width: 75%;
     margin: 5px auto;
     text-align: center;
+    padding-bottom: 10px;
     /*border: SOLID rgb(0, 242, 255) 2PX;*/
 }
 
@@ -24,5 +27,5 @@ div.overview{
     /*border: SOLID green 5PX;*/
     padding-bottom: 20px;
     background-color: rgb(35, 35, 35);
-    border-bottom: solid red 2px;
+    /*border-bottom: solid red 2px;*/
 }
