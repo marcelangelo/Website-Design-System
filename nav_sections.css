@@ -14,23 +14,27 @@
 
 .section .headtitle_dot{
     float: left;
-    font-size: 700%;
+    font-size: 30px;
     font-family: monospace;
-    padding-top: 5px;
+    padding-top: 14px;
 }
 
 .section .headtitle{
     float: left;
-    font-size: 700%;
-    padding-left: 10px;
-    font-family: monospace;
-    padding-top: 5px;
+    font-size: 35px;
+    padding-left: 2%;
+    font-family: 'Creepster' ,monospace;
+    padding-top: 8px;
+}
+
+.section .headtitle{
+    color: red;
 }
 
 .section .subheadings {
     float: right;
-    font-size: 250%;
-    padding-top: 5%;
+    font-size: 20px;
+    padding-top: 18px;
     padding-right: 2%;
     font-family: monospace;
 }
