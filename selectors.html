@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="breadcrumbs.css">
         <link rel="stylesheet" href="overview.css">
         <link rel="stylesheet" href="navigation.css">
+        <link rel="stylesheet" href="selectors.css">
     </head>
 
     <header>
@@ -23,109 +24,215 @@
     </header>
 
     <body>
+
         <!--Selectors-->
+        <div class="selectors">
 
-        <div class="navigation">
-            <table class="navigation">
+            <!--Navigation Overview-->
+            <div class="selectors_overview">
+                <h1>CSS Selectors</h1>
+                <p>
+                    In CSS, selectors are used to target the HTML elements on our web 
+                    pages that we want to style. There are a wide variety of CSS 
+                    selectors available, allowing for fine-grained precision when 
+                    selecting elements to style. In this article and its sub-articles 
+                    we'll run through the different types in great detail, seeing how 
+                    they work.
+                </p>
+            </div>
 
-                <!--Selectors Overview-->
-
-                <div class="nav_overview">
-                    <p>
-                        <h1>Selectors</h1>
-                        &#60Info about Selectors&#62
-                    </p>
-                </div>
-
+            <table class="selectors_table">
                 <tr>
-                    <td class="aside">
+                    <td class="selectors_description">
                         <aside>
-                            <div class="navigation_div">
-                                <h2>Usage notes</h2>
+                            <div class="selectors_aside">
+                                <h2>What is a selector?</h2>
                                 <p>
-                                    It's not necessary for all links to be contained
-                                    in a &#60nav&#62 element. &#60nav&#62 is intended only for 
-                                    a major block of navigation links; typically 
-                                    the &#60footer&#62 element often has a list of links
-                                    that don't need to be in a &#60nav&#62 element.
-                                    <br><br> A document may have several &#60nav&#62 elements, 
-                                    for example, one for site navigation and 
-                                    one for intra-page navigation. aria-labelledby
-                                    can be used in such case to promote 
-                                    accessibility, see example.
-                                    <br><br> User agents, such as screen readers 
-                                    targeting disabled users, can use this element
-                                    to determine whether to omit the initial 
-                                    rendering of navigation-only content.
+                                    A CSS selector is the first part of a CSS Rule. It is 
+                                    a pattern of elements and other terms that tell the 
+                                    browser which HTML elements should be selected to have 
+                                    the CSS property values inside the rule applied to them. 
+                                    The element or elements which are selected by the selector 
+                                    are referred to as the subject of the selector.
+                                    <br><br>
+                                    In other articles you may have met some different selectors,
+                                    and learned that there are selectors that target the 
+                                    document in different ways — for example by selecting an 
+                                    element such as h1, or a class such as .special. 
+                                    <br><br>
+                                    In CSS, selectors are defined in the CSS Selectors 
+                                    specification; like any other part of CSS they need to have support in 
+                                    browsers for them to work. The majority of selectors that you 
+                                    will come across are defined in the Level 3 Selectors 
+                                    specification and Level 4 Selectors specification, which 
+                                    are both mature specifications, therefore you will find 
+                                    excellent browser support for these selectors.
                                 </p>
                             </div>
                         </aside>
                     </td>
                     
-                    <td class="main">
+                    <td class="selectors_img">
                         <main>
-                            <img src="https://jenkov.com/images/html5/nav-1.png" alt="Code about navigation" width="40%">
+                            <div class="selectors_code">
+                                <span>h1 &#123</span>
+                                <ul>
+                                    <li>color&#58 blue&#59</li>
+                                    <li>background-color&#58 yellow&#59</li>
+                                </ul>
+                                <span>&#125</span> 
+                                <br><br>
+                                <span>p &#123</span>
+                                <ul>
+                                    <li>color&#58 red&#59</li>
+                                </ul>
+                                <span>&#125</span> 
+                            </div>
                         </main>
                     </td>
     
                 </tr>
             </table>
 
-            <!--Exapmles-->
+            <!--selectors_list-->
 
-            <div class="examples">
-                <div>
-                    <h2>Examples</h2>
-                <p>
-                    In this example, a &#60nav&#62 block is used to 
-                    contain an unordered list (&#60ul&#62) of links. 
-                    With appropriate CSS, this can be presented 
-                    as a sidebar, navigation bar, or drop-down menu.
-                </p>
-                <div class="examples_1">
-                    <span>&#60nav&#62 class="menu"&#62</span>
-                    <ul>
-                        <li>&#60ul&#62</li>
-                        <ul>
-                            <p>                                        
-                                &#60li&#62&#60a href="#"&#62Home&#60/a&#62&#60/li&#62<br>
-                                &#60li&#62&#60a href="#"&#62About&#60/a&#62&#60/li&#62<br>
-                                &#60li&#62&#60a href="#"&#62Contact&#60/a&#62&#60/li&#62
-                            </p>
-                        </ul>
-                        <li>&#60ul&#62</li>
-                    </ul>
-                    <span>&#60nav&#62</span>                                
-                </div>
-                <p>
-                    The semantics of the nav element is that of 
-                    providing links. However a nav element doesn't 
-                    have to contain a list, it can contain other
-                    kinds of content as well. In this navigation 
-                    block, links are provided in prose:
+            <div class="selectors_list">
+                <h2>Selector list:</h2>
+
+                <p>If you have more than one thing which uses the same CSS then 
+                    the individual selectors can be combined into a selector list 
+                    so that the rule is applied to all of the individual selectors. 
+                    For example, if I have the same CSS for an h1 and also a class 
+                    of .special, I could write this as two separate rules.
                 </p>
 
-                <div class="examples_1">
-                    <span>&#60nav&#62</span>
+                <div class="selectors_code">
+                    <span>h1 &#123</span>
                     <ul>
-                        <li>&#60ul&#62</li>
-                        <ul>
-                            <p>                                        
-                                &#60li&#62&#60a href="#"&#62Home&#60/a&#62&#60/li&#62<br>
-                                &#60li&#62&#60a href="#"&#62About&#60/a&#62&#60/li&#62<br>
-                                &#60li&#62&#60a href="#"&#62Contact&#60/a&#62&#60/li&#62
-                            </p>
-                        </ul>
-                        <li>&#60ul&#62</li>
+                        <li>color&#58 blue&#59</li>
                     </ul>
-                    <span>&#60nav&#62</span>                                
+                    <span>&#125</span> 
+                    <br><br>
+                    <span>.special &#123</span>
+                    <ul>
+                        <li>color&#58 blue&#59</li>
+                    </ul>
+                    <span>&#125</span> 
                 </div>
+
+                <p>
+                    I could also combine these into a selector list, 
+                    by adding a comma between them.
+                </p>
+
+                <div class="selectors_code">
+                    <span>h1, .special &#123</span>
+                    <ul>
+                        <li>color&#58 blue&#59</li>
+                    </ul>
+                    <span>&#125</span>  
+                </div>
+
+                <p>
+                    White space is valid before or after the comma. You 
+                    may also find the selectors more readable if each is on a new line.
+                </p>
+
+                <div class="selectors_code">
+                    <span>h1,</span>
+                    <br>
+                    <span>.special &#123</span>
+                    <ul>
+                        <li>color&#58 blue&#59</li>
+                    </ul>
+                    <span>&#125</span>  
+                </div>
+
+                <p>
+                    When you group selectors in this way, if any selector is syntactically
+                    invalid, the whole rule will be ignored.
+                    <br><br>
+                    In the following example, the
+                    invalid class selector rule will be ignored, whereas the h1 would still be styled.
+                </p>
+
+                <div class="selectors_code">
+                    <span>h1 &#123</span>
+                    <ul>
+                        <li>color&#58 blue&#59</li>
+                    </ul>
+                    <span>&#125</span> 
+                    <br><br>
+                    <span>..special &#123</span>
+                    <ul>
+                        <li>color&#58 blue&#59</li>
+                    </ul>
+                    <span>&#125</span> 
+                </div>
+
+                <p>
+                    When combined however, neither the h1 nor the class will be styled
+                     as the entire rule is deemed invalid.
+                </p>
+
+                <div class="selectors_code">
+                    <span>h1,</span>
+                    <span>..special &#123</span>
+                    <ul>
+                        <li>color&#58 blue&#59</li>
+                    </ul>
+                    <span>&#125</span>  
+                </div>
+
+            </div>
+
+            <div class="selectors_type">
+                <h2>Types of selectors:</h2>
+
+                <p>
+                    There are a few different groupings of selectors, and knowing which 
+                    type of selector you might need will help you to find the right tool
+                    for the job. In this article's subarticles we will look at the different
+                    groups of selectors in more detail.
+                </p>
+
+                <h3>Type, class, and ID selectors:</h3>
+
+                <p>
+                    Type selectors target an HTML element such as an  &#60<a style="color: rgb(255, 0, 0);">h1</a>&#62&#58
+                </p>
+
+                <div class="selectors_code">
+                    <span>h1 &#123</span><br>
+                    <span>&#125</span>  
+                </div>
+
+                <p>
+                    Class selectors target an element that has a specific value for its <a style="color: rgb(255, 0, 0);">class</a> attribute&#58
+                </p>
+
+                <div class="selectors_code">
+                    <span>.box &#123</span><br>
+                    <span>&#125</span>  
+                </div>
+
+                <p>
+                    ID selectors target an element that has a specific value for its <a style="color: rgb(255, 0, 0);">id</a> attribute:
+                </p>
+
+                <div class="selectors_code">
+                    <span>#unique &#123</span><br>
+                    <span>&#125</span>  
+                </div>
+
             </div>
 
         </div>
     </body>
     
+    
     <footer>
-
+        
     </footer>
+</html>
 </html>
