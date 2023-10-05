@@ -1,3 +1,5 @@
+/*Selectors*/
+
 .selectors{
     padding-top: 100px;
 }
@@ -13,6 +15,7 @@
     font-size: 30px;
     font-family: monospace;
     color: black;
+    text-align: center;
 }
 
 /*selectors_description*/
@@ -87,7 +90,7 @@
     width: 300px;
 }
 
-.selectors_list .selectors_code ul {
+.selectors_list .selectors_code ul{
     list-style: none;
     color: rgb(30, 255, 0);
     font-size: 17px;
