@@ -97,10 +97,9 @@
     padding: 10px;
     background-color: rgb(35, 35, 35);
     margin-left: 30px;
-    width: 60%;
     text-align: justify;
 }
 
 .navigation .examples .examples_1 ul {
-    list-style: none;    
+    list-style: none;  
 }
