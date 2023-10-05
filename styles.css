@@ -23,3 +23,27 @@ body{
     margin: -1px;
     position: relative;
 }
+
+p{
+    font-size: 19px;
+    font-family: monospace;
+    color: black;
+}
+
+h1{
+    font-size: 45px;
+    font-family: 'Creepster';
+    color: black;
+    text-decoration: underline rgb(255, 0, 0);
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-decoration: overline rgb(0, 0, 0);
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
